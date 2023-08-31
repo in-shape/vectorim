@@ -14,5 +14,5 @@ vector_db = Vectorim([[1.0, 0.4, ...], ...], ["Vectorim", "Is", "The", "Best", "
 # search!
 scores, data = vector_db.search([0.69, 0.42, ...], top_k=3)
 
-# that's it
+# that's it really
 ```

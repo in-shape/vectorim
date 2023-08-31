@@ -120,6 +120,8 @@ class Vectorim:
                 if any(isinstance(i, list) for i in vector):
                     raise ValueError("Matrix input should be a list of flat lists")
                 if len(vector) != len(matrix[0]):
+                    print(vector)
+                    print("!!")
                     raise ValueError(
                         "Matrix input should be a list of flat lists of the same length"
                     )
