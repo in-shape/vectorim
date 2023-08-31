@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "Vectorim"
+version = "0.0.1"
+authors = [
+  { name="Ariel Schoen", email="ariel@shape-ai.com" },
+]
+description = "A simple, no bs vector database for experimentation and prototyping"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/in-shape/vectorim"
