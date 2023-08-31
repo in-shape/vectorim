@@ -6,7 +6,7 @@ It is to be used in scripting and experimenting with new ideas, without the hass
 Usage:
 
 ```python
-import vectorim
+from vectorim import Vectorim
 
 # create a database
 vector_db = Vectorim([[1.0, 0.4, ...], ...], ["Vectorim", "Is", "The", "Best", "Database", ...], file_path="my_db.pkl")

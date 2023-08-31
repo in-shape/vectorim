@@ -10,6 +10,9 @@ authors = [
 description = "A simple, no bs vector database for experimentation and prototyping"
 readme = "README.md"
 requires-python = ">=3.7"
+dependencies = [
+    "numpy",
+]
 classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
